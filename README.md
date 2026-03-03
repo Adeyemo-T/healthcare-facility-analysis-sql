@@ -133,7 +133,6 @@ hospital_location.csv - Source data for geographic and capacity information
 schema_creation.sql - Database schema and table creation scripts
 business_queries.sql - All 10 business analysis queries
 views_and_procedures.sql - Reusable database objects
-Author: [Your Name]
-Date: [Current Date]
-Contact: [Your LinkedIn/Email]
-This is your complete README. Replace the bracketed placeholders with your actual results and add screenshots where indicated. Save this as README.md in your project folder.
+Author: Adeyemo Oluwatimileyin 
+Date: 3/03/25
+Contact: iamtimade010@gmail.com
