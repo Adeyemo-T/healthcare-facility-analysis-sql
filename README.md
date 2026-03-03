@@ -24,10 +24,15 @@ Created a normalized relational database with the following structure:
    - Primary Key: location_id
    - Foreign Key: provider_id references hospitals
 
-### Normalization Applied:
+   ### Normalization Applied:
 - Eliminated data redundancy by creating lookup table for hospital types
 - Established proper primary key and foreign key relationships
 - Separated operational data (hospitals) from geographic data (locations)
+   
+## Database Setup
+![Image](https://github.com/user-attachments/assets/96a90027-d52e-43c2-8743-a8aed6260cc0)
+![Image](https://github.com/user-attachments/assets/da0d4787-917b-45ad-8bff-1019dcb2a1d7)
+
 
 ## Business Questions Analyzed
 
