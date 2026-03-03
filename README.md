@@ -39,42 +39,44 @@ Created a normalized relational database with the following structure:
 ### 2. What is the average number of beds per hospital type?
 **Query**: Used JOIN and AVG() aggregate function across three tables
 **Finding**: [Add hospital type with highest average]
-**Screenshot**: [Insert screenshot 2]
+
+![Image](https://github.com/user-attachments/assets/4cf572e5-45b3-4527-a241-dd1f4f8141d5)
 
 ### 3. Which cities have hospitals with no emergency services?
 **Query**: Filtered hospitals where emergency_services is False or NULL
 **Finding**: [Add count of cities]
-**Screenshot**: [Insert screenshot 3]
+![Image](https://github.com/user-attachments/assets/b65c8882-23da-4947-acee-c4db0988b967)
 
 ### 4. What is the distribution of hospital ownership across states?
 **Query**: Used GROUP BY with multiple dimensions (state and ownership type)
 **Finding**: [Add key insight about ownership distribution]
-**Screenshot**: [Insert screenshot 4]
+![Image](https://github.com/user-attachments/assets/89fc6728-1aa9-4d6c-80f3-6134d6472899)
 
 ### 5. Which hospitals have the highest staff-to-bed ratio?
 **Query**: Calculated staff per bed ratio using CAST for decimal division
 **Finding**: [Add top hospital name and ratio]
-**Screenshot**: [Insert screenshot 5]
+![Image](https://github.com/user-attachments/assets/55af2304-af7a-42a0-ade6-50ff4f03f434)
 
 ### 6. What percentage of hospitals have trauma services by state?
 **Query**: Used CASE statements with SUM and aggregate functions to calculate percentages
 **Finding**: [Add state with highest trauma coverage percentage]
-**Screenshot**: [Insert screenshot 6]
+
+![Image](https://github.com/user-attachments/assets/81d5954f-9e76-492c-b3b9-c1e2b4477ff9)
 
 ### 7. Which hospital type has the highest average bed count?
 **Query**: Multi-table JOIN with AVG() aggregate function
 **Finding**: [Add hospital type]
-**Screenshot**: [Insert screenshot 7]
+![Image](https://github.com/user-attachments/assets/a34360cc-e265-49af-a583-db52390a9351)
 
 ### 8. Find hospitals with missing critical data
 **Query**: Used OR logic with IS NULL to identify data quality issues
 **Finding**: [Add percentage of hospitals with missing data]
-**Screenshot**: [Insert screenshot 8]
+![Image](https://github.com/user-attachments/assets/abd16bc4-932d-456e-9b56-2de626282539)
 
 ### 9. Which states have zero government-owned hospitals?
 **Query**: Used subquery with NOT IN to find states without government hospitals
 **Finding**: All states in the dataset have at least one government hospital
-**Screenshot**: [Insert screenshot 9]
+![Image](https://github.com/user-attachments/assets/9e512e01-018d-4c9d-8afe-dc8390d5c62c)
 
 ## Technical Implementation
 
