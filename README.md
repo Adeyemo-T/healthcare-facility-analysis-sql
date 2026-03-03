@@ -33,44 +33,43 @@ Created a normalized relational database with the following structure:
 
 ### 1. Which states have the most hospitals?
 **Query**: Aggregated hospital counts by state
-**Finding**: [Add your top 3 states and counts]
+**Finding**: Texas leads with 2,081 hospitals, followed by Pennsylvania with 2,066 and Georgia with 2,051 facilities.
 ![Image](https://github.com/user-attachments/assets/9af80d8d-64fd-4c4e-a6bb-27dbacac5fd8)
 
 ### 2. What is the average number of beds per hospital type?
 **Query**: Used JOIN and AVG() aggregate function across three tables
-**Finding**: [Add hospital type with highest average]
+**Finding**:Critical Access hospitals have the highest average bed count at 262 beds, while Acute Care facilities average 256 beds.
 
 ![Image](https://github.com/user-attachments/assets/4cf572e5-45b3-4527-a241-dd1f4f8141d5)
 
 ### 3. Which cities have hospitals with no emergency services?
 **Query**: Filtered hospitals where emergency_services is False or NULL
-**Finding**: [Add count of cities]
+**Finding**:Seattle has 1,399 hospitals without emergency services, the highest among all cities, followed by Boston with 1,370 and Atlanta with 1,345.
 ![Image](https://github.com/user-attachments/assets/b65c8882-23da-4947-acee-c4db0988b967)
 
 ### 4. What is the distribution of hospital ownership across states?
 **Query**: Used GROUP BY with multiple dimensions (state and ownership type)
-**Finding**: [Add key insight about ownership distribution]
+**Finding**: Non-Profit ownership is most common in Arizona with 432 facilities, while ownership types are relatively balanced across states with each type representing 300-430 hospitals per state.
 ![Image](https://github.com/user-attachments/assets/89fc6728-1aa9-4d6c-80f3-6134d6472899)
 
 ### 5. Which hospitals have the highest staff-to-bed ratio?
 **Query**: Calculated staff per bed ratio using CAST for decimal division
-**Finding**: [Add top hospital name and ratio]
+**Finding**:Hospital Unity Hospital in Atlanta leads with a staff-to-bed ratio of 96.1, meaning 96 staff members per bed, followed by Hospital Unity Clinic in Boston at 95.45.
 ![Image](https://github.com/user-attachments/assets/55af2304-af7a-42a0-ade6-50ff4f03f434)
 
 ### 6. What percentage of hospitals have trauma services by state?
 **Query**: Used CASE statements with SUM and aggregate functions to calculate percentages
-**Finding**: [Add state with highest trauma coverage percentage]
-
+**Finding**: Washington has the highest trauma service coverage at 77%, while California has the lowest at 74%. Overall, approximately 75% of hospitals across all states provide trauma services.
 ![Image](https://github.com/user-attachments/assets/81d5954f-9e76-492c-b3b9-c1e2b4477ff9)
 
 ### 7. Which hospital type has the highest average bed count?
 **Query**: Multi-table JOIN with AVG() aggregate function
-**Finding**: [Add hospital type]
+**Finding**: Critical Access hospitals have the highest average bed capacity at 262 beds per facility.
 ![Image](https://github.com/user-attachments/assets/a34360cc-e265-49af-a583-db52390a9351)
 
 ### 8. Find hospitals with missing critical data
 **Query**: Used OR logic with IS NULL to identify data quality issues
-**Finding**: [Add percentage of hospitals with missing data]
+**Finding**:Data quality issues were identified in 12 hospitals, with most missing staff counts. One facility is missing both beds and staff data, indicating significant data collection gaps.
 ![Image](https://github.com/user-attachments/assets/abd16bc4-932d-456e-9b56-2de626282539)
 
 ### 9. Which states have zero government-owned hospitals?
