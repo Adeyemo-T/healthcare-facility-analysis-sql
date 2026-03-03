@@ -34,7 +34,7 @@ Created a normalized relational database with the following structure:
 ### 1. Which states have the most hospitals?
 **Query**: Aggregated hospital counts by state
 **Finding**: [Add your top 3 states and counts]
-**Screenshot**: [Insert screenshot 1]
+![Image](https://github.com/user-attachments/assets/9af80d8d-64fd-4c4e-a6bb-27dbacac5fd8)
 
 ### 2. What is the average number of beds per hospital type?
 **Query**: Used JOIN and AVG() aggregate function across three tables
