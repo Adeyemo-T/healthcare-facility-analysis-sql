@@ -124,7 +124,9 @@ sp_get_hospital_count_by_state - Parameterized query for state-specific counts
 sp_get_hospitals_by_state - Retrieve all hospitals in a specified state
 sp_get_hospitals_by_ownership_and_beds - Filter by ownership type and minimum bed count
 Key Insights
-[Add 3-5 bullet points with your most important findings from the analysis]
+- Texas, Pennsylvania, and Georgia lead the nation with over 2,000 hospitals each, indicating concentrated healthcare infrastructure in these states
+- Approximately 75% of hospitals across all states provide trauma services, with Washington state leading at 77% coverage
+- Staff-to-bed ratios vary dramatically, with some hospitals having 96 staff members per bed while others operate with far lower ratios, suggesting significant operational differences
 Skills Demonstrated
 Data modeling and schema design
 SQL query writing for business analytics
